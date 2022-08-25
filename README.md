@@ -12,7 +12,7 @@
 </p>
 
 
-## 💻 Sobre o projeto
+## Sobre o projeto
 
 Nesse desafio, foi proposto desenvolver uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
 
