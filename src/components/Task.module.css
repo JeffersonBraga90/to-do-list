@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  padding: 1rem .75rem;
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--gray-500);
+  border-radius: .5rem;
+}
+.container + .container {
+  margin-top: 0.75rem;
+}
+  .open {
+    margin-left: 1rem;
+    flex: 1;
+    text-align: start;
+    color: var(--gray-100);
+  }
+
+  .completed {
+    margin-left: 1rem;
+    flex: 1;
+    text-align: start;
+    text-decoration: line-through;
+    color: var(--gray-300);
+  }
+
+  .check {
+    padding: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .trash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3rem;
+    border: none;
+    transition: all .2s;
+    background-color: transparent;
+    color: var(--gray-300);
+   }
+ 
+   .trash:hover {
+    background-color: transparent;
+    color: var(--danger);
+  }
+

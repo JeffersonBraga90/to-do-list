@@ -1,0 +1,50 @@
+.headerTask {
+  margin: 0 auto;
+  max-width: 736px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ .contentHeader {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1.5rem;
+   gap: 0.5rem;
+ }
+ 
+ .contentHeader > p {
+   font-weight: 700;
+   font-size: 0.875rem;
+ }
+ 
+ .textBlue {
+   color: var(--blue);
+ }
+ .textPurple{
+   color: var(--purple);
+ }
+ 
+ .contentHeader > span {
+   font-weight: 700;
+   font-size: 0.875rem;
+   background: var(--gray-400);
+   padding: 0.125rem 0.5rem;
+   border-radius: 62.4375rem;
+   color: var(--gray-200);
+   font-size: 0.75rem;
+ }
+
+.todo {
+  max-width: 736px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

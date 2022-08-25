@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  border-top: 1px solid var(--gray-400);
+  margin: 0 auto;
+  max-width: 736px;
+  width: 100%;
+  
+}
+.list > img {
+  padding-bottom: 1rem;
+}
+
+.list > p {
+  color: var(--gray-300);
+}
+
